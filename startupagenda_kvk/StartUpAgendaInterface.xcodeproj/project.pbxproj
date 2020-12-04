@@ -1,0 +1,1338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386E1B891B74AD6800182C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E1B881B74AD6800182C6B /* AppDelegate.swift */; };
+		386E1B8B1B74AD6800182C6B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E1B8A1B74AD6800182C6B /* MasterViewController.swift */; };
+		386E1B8D1B74AD6800182C6B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E1B8C1B74AD6800182C6B /* DetailViewController.swift */; };
+		386E1B901B74AD6800182C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386E1B8E1B74AD6800182C6B /* Main.storyboard */; };
+		386E1B951B74AD6800182C6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386E1B931B74AD6800182C6B /* LaunchScreen.xib */; };
+		386E1BA11B74AD6800182C6B /* StartupAgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E1BA01B74AD6800182C6B /* StartupAgendaTests.swift */; };
+		386E1BA81B74B0E400182C6B /* StartUpAgendaInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E729B31B53E32D00E7E702 /* StartUpAgendaInterface.framework */; };
+		386E1BA91B74B0E400182C6B /* StartUpAgendaInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38E729B31B53E32D00E7E702 /* StartUpAgendaInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		386E1BAE1B74B3B700182C6B /* AgendaItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E1BAD1B74B3B700182C6B /* AgendaItemCell.swift */; };
+		386E1BB01B74B6EF00182C6B /* CustomStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E1BAF1B74B6EF00182C6B /* CustomStuff.swift */; };
+		386E1BB21B74BD7300182C6B /* Bariol_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386E1BB11B74BD7300182C6B /* Bariol_Regular.otf */; };
+		386E1BB61B74C38A00182C6B /* Bariol_Regular_Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386E1BB51B74C38A00182C6B /* Bariol_Regular_Italic.otf */; };
+		386E1BBD1B74CB9B00182C6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386E1BBC1B74CB9B00182C6B /* Images.xcassets */; };
+		386E1BC31B7608BE00182C6B /* DetailCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E1BC21B7608BE00182C6B /* DetailCells.swift */; };
+		386E1BC71B7610B000182C6B /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E1BC61B7610B000182C6B /* LineView.swift */; };
+		38BBB3011B7A084600AE1673 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BBB3001B7A084600AE1673 /* Meeting.swift */; };
+		38BBB3031B7A127F00AE1673 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BBB3001B7A084600AE1673 /* Meeting.swift */; };
+		38E729B91B53E32D00E7E702 /* StartUpAgendaInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E729B81B53E32D00E7E702 /* StartUpAgendaInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E729BF1B53E32D00E7E702 /* StartUpAgendaInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E729B31B53E32D00E7E702 /* StartUpAgendaInterface.framework */; };
+		38E729D01B53E37800E7E702 /* StartUpAgendaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E729CF1B53E37800E7E702 /* StartUpAgendaController.swift */; };
+		38E729D21B53ECF000E7E702 /* StartUpAgendaControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E729D11B53ECF000E7E702 /* StartUpAgendaControllerTests.swift */; };
+		38F6B3511B53FA9800DA4EA2 /* MCExtensionNSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B3501B53FA9800DA4EA2 /* MCExtensionNSDate.swift */; };
+		38F6B35C1B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F6B35B1B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38F6B3621B54062D00DA4EA2 /* StartUpAgendaInterfaceOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F6B3571B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.framework */; };
+		38F6B3701B54065300DA4EA2 /* StartUpAgendaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E729CF1B53E37800E7E702 /* StartUpAgendaController.swift */; };
+		38F6B3711B54065300DA4EA2 /* MCExtensionNSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B3501B53FA9800DA4EA2 /* MCExtensionNSDate.swift */; };
+		38F6B3741B5406B500DA4EA2 /* StartUpAgendaControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B3731B5406B500DA4EA2 /* StartUpAgendaControllerTests.swift */; };
+		38F6B3A21B5407A100DA4EA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B3A11B5407A100DA4EA2 /* AppDelegate.swift */; };
+		38F6B3A61B5407A100DA4EA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F6B3A51B5407A100DA4EA2 /* Images.xcassets */; };
+		38F6B3B51B5407A100DA4EA2 /* Meetup_agenda_for_Startup_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B3B41B5407A100DA4EA2 /* Meetup_agenda_for_Startup_OSXTests.swift */; };
+		38F6B3BD1B5407B300DA4EA2 /* StartUpAgendaInterfaceOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F6B3571B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.framework */; };
+		38F6B3C11B54085400DA4EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F6B3C01B54085400DA4EA2 /* Main.storyboard */; };
+		38F6B3C31B54089700DA4EA2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B3C21B54089700DA4EA2 /* ListViewController.swift */; };
+		38F6B3C51B5408CD00DA4EA2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B3C41B5408CD00DA4EA2 /* DetailsViewController.swift */; };
+		38F6B3C71B5408E500DA4EA2 /* ListTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B3C61B5408E500DA4EA2 /* ListTableCellView.swift */; };
+		38F6B3CE1B541E6A00DA4EA2 /* StartUpAgendaInterfaceOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F6B3571B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.framework */; };
+		38F6B3CF1B541E6A00DA4EA2 /* StartUpAgendaInterfaceOSX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38F6B3571B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		386E1B9B1B74AD6800182C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E729AA1B53E32D00E7E702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386E1B831B74AD6700182C6B;
+			remoteInfo = StartupAgenda;
+		};
+		386E1BAA1B74B0E400182C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E729AA1B53E32D00E7E702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E729B21B53E32D00E7E702;
+			remoteInfo = StartUpAgendaInterface;
+		};
+		38E729C01B53E32D00E7E702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E729AA1B53E32D00E7E702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E729B21B53E32D00E7E702;
+			remoteInfo = StartUpAgendaInterface;
+		};
+		38F6B3631B54062D00DA4EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E729AA1B53E32D00E7E702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F6B3561B54062C00DA4EA2;
+			remoteInfo = StartUpAgendaInterfaceOSX;
+		};
+		38F6B3AF1B5407A100DA4EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E729AA1B53E32D00E7E702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F6B39C1B5407A100DA4EA2;
+			remoteInfo = "Meetup agenda for Startup OSX";
+		};
+		38F6B3D01B541E6A00DA4EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E729AA1B53E32D00E7E702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F6B3561B54062C00DA4EA2;
+			remoteInfo = StartUpAgendaInterfaceOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		386E1BAC1B74B0E400182C6B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				386E1BA91B74B0E400182C6B /* StartUpAgendaInterface.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B3D21B541E6A00DA4EA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				38F6B3CF1B541E6A00DA4EA2 /* StartUpAgendaInterfaceOSX.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38537A4D1B54F0E700FFEADF /* Meetup agenda for Startup OSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Meetup agenda for Startup OSX.entitlements"; sourceTree = "<group>"; };
+		386E1B841B74AD6700182C6B /* StartupConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartupConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386E1B871B74AD6800182C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386E1B881B74AD6800182C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		386E1B8A1B74AD6800182C6B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		386E1B8C1B74AD6800182C6B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		386E1B8F1B74AD6800182C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		386E1B941B74AD6800182C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		386E1B9A1B74AD6800182C6B /* StartupAgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartupAgendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386E1B9F1B74AD6800182C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386E1BA01B74AD6800182C6B /* StartupAgendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupAgendaTests.swift; sourceTree = "<group>"; };
+		386E1BAD1B74B3B700182C6B /* AgendaItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaItemCell.swift; sourceTree = "<group>"; };
+		386E1BAF1B74B6EF00182C6B /* CustomStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStuff.swift; sourceTree = "<group>"; };
+		386E1BB11B74BD7300182C6B /* Bariol_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Regular.otf; sourceTree = "<group>"; };
+		386E1BB51B74C38A00182C6B /* Bariol_Regular_Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Regular_Italic.otf; sourceTree = "<group>"; };
+		386E1BBC1B74CB9B00182C6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		386E1BC21B7608BE00182C6B /* DetailCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCells.swift; sourceTree = "<group>"; };
+		386E1BC61B7610B000182C6B /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		38BBB3001B7A084600AE1673 /* Meeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		38E729B31B53E32D00E7E702 /* StartUpAgendaInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StartUpAgendaInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E729B71B53E32D00E7E702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E729B81B53E32D00E7E702 /* StartUpAgendaInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartUpAgendaInterface.h; sourceTree = "<group>"; };
+		38E729BE1B53E32D00E7E702 /* StartUpAgendaInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartUpAgendaInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E729C41B53E32D00E7E702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E729CF1B53E37800E7E702 /* StartUpAgendaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartUpAgendaController.swift; sourceTree = "<group>"; };
+		38E729D11B53ECF000E7E702 /* StartUpAgendaControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartUpAgendaControllerTests.swift; sourceTree = "<group>"; };
+		38F6B3501B53FA9800DA4EA2 /* MCExtensionNSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCExtensionNSDate.swift; sourceTree = "<group>"; };
+		38F6B3571B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StartUpAgendaInterfaceOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F6B35A1B54062C00DA4EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F6B35B1B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartUpAgendaInterfaceOSX.h; sourceTree = "<group>"; };
+		38F6B3611B54062D00DA4EA2 /* StartUpAgendaInterfaceOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartUpAgendaInterfaceOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F6B3671B54062D00DA4EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F6B3681B54062D00DA4EA2 /* StartUpAgendaInterfaceOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpAgendaInterfaceOSXTests.swift; sourceTree = "<group>"; };
+		38F6B3731B5406B500DA4EA2 /* StartUpAgendaControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartUpAgendaControllerTests.swift; sourceTree = "<group>"; };
+		38F6B39D1B5407A100DA4EA2 /* Meetup agenda for Startup OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meetup agenda for Startup OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F6B3A01B5407A100DA4EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F6B3A11B5407A100DA4EA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38F6B3A51B5407A100DA4EA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38F6B3AE1B5407A100DA4EA2 /* Meetup agenda for Startup OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meetup agenda for Startup OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F6B3B31B5407A100DA4EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F6B3B41B5407A100DA4EA2 /* Meetup_agenda_for_Startup_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetup_agenda_for_Startup_OSXTests.swift; sourceTree = "<group>"; };
+		38F6B3C01B54085400DA4EA2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		38F6B3C21B54089700DA4EA2 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		38F6B3C41B5408CD00DA4EA2 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		38F6B3C61B5408E500DA4EA2 /* ListTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		386E1B811B74AD6700182C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E1BA81B74B0E400182C6B /* StartUpAgendaInterface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E1B971B74AD6800182C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E729AF1B53E32D00E7E702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E729BB1B53E32D00E7E702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E729BF1B53E32D00E7E702 /* StartUpAgendaInterface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B3531B54062C00DA4EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B35E1B54062D00DA4EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F6B3621B54062D00DA4EA2 /* StartUpAgendaInterfaceOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B39A1B5407A100DA4EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F6B3BD1B5407B300DA4EA2 /* StartUpAgendaInterfaceOSX.framework in Frameworks */,
+				38F6B3CE1B541E6A00DA4EA2 /* StartUpAgendaInterfaceOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B3AB1B5407A100DA4EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386E1B851B74AD6800182C6B /* StartupAgenda */ = {
+			isa = PBXGroup;
+			children = (
+				386E1B881B74AD6800182C6B /* AppDelegate.swift */,
+				386E1BAF1B74B6EF00182C6B /* CustomStuff.swift */,
+				386E1B8A1B74AD6800182C6B /* MasterViewController.swift */,
+				386E1BAD1B74B3B700182C6B /* AgendaItemCell.swift */,
+				386E1B8C1B74AD6800182C6B /* DetailViewController.swift */,
+				386E1BB91B74CA4F00182C6B /* Views */,
+				386E1BB31B74BD8200182C6B /* Resources */,
+				386E1B861B74AD6800182C6B /* Supporting Files */,
+			);
+			path = StartupAgenda;
+			sourceTree = "<group>";
+		};
+		386E1B861B74AD6800182C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				386E1B871B74AD6800182C6B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		386E1B9D1B74AD6800182C6B /* StartupAgendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				386E1BA01B74AD6800182C6B /* StartupAgendaTests.swift */,
+				386E1B9E1B74AD6800182C6B /* Supporting Files */,
+			);
+			path = StartupAgendaTests;
+			sourceTree = "<group>";
+		};
+		386E1B9E1B74AD6800182C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				386E1B9F1B74AD6800182C6B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		386E1BB31B74BD8200182C6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				386E1BBC1B74CB9B00182C6B /* Images.xcassets */,
+				386E1BB11B74BD7300182C6B /* Bariol_Regular.otf */,
+				386E1BB51B74C38A00182C6B /* Bariol_Regular_Italic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		386E1BB91B74CA4F00182C6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				386E1B8E1B74AD6800182C6B /* Main.storyboard */,
+				386E1BC21B7608BE00182C6B /* DetailCells.swift */,
+				386E1BC61B7610B000182C6B /* LineView.swift */,
+				386E1B931B74AD6800182C6B /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		38E729A91B53E32D00E7E702 = {
+			isa = PBXGroup;
+			children = (
+				38E729B51B53E32D00E7E702 /* StartUpAgendaInterface */,
+				38E729C21B53E32D00E7E702 /* StartUpAgendaInterfaceTests */,
+				38F6B3581B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX */,
+				38F6B3651B54062D00DA4EA2 /* StartUpAgendaInterfaceOSXTests */,
+				38F6B39E1B5407A100DA4EA2 /* Meetup agenda for Startup OSX */,
+				38F6B3B11B5407A100DA4EA2 /* Meetup agenda for Startup OSXTests */,
+				386E1B851B74AD6800182C6B /* StartupAgenda */,
+				386E1B9D1B74AD6800182C6B /* StartupAgendaTests */,
+				38E729B41B53E32D00E7E702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38E729B41B53E32D00E7E702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E729B31B53E32D00E7E702 /* StartUpAgendaInterface.framework */,
+				38E729BE1B53E32D00E7E702 /* StartUpAgendaInterfaceTests.xctest */,
+				38F6B3571B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.framework */,
+				38F6B3611B54062D00DA4EA2 /* StartUpAgendaInterfaceOSXTests.xctest */,
+				38F6B39D1B5407A100DA4EA2 /* Meetup agenda for Startup OSX.app */,
+				38F6B3AE1B5407A100DA4EA2 /* Meetup agenda for Startup OSXTests.xctest */,
+				386E1B841B74AD6700182C6B /* StartupConnect.app */,
+				386E1B9A1B74AD6800182C6B /* StartupAgendaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E729B51B53E32D00E7E702 /* StartUpAgendaInterface */ = {
+			isa = PBXGroup;
+			children = (
+				38E729B81B53E32D00E7E702 /* StartUpAgendaInterface.h */,
+				38E729CF1B53E37800E7E702 /* StartUpAgendaController.swift */,
+				38BBB3001B7A084600AE1673 /* Meeting.swift */,
+				38F6B3501B53FA9800DA4EA2 /* MCExtensionNSDate.swift */,
+				38E729B61B53E32D00E7E702 /* Supporting Files */,
+			);
+			path = StartUpAgendaInterface;
+			sourceTree = "<group>";
+		};
+		38E729B61B53E32D00E7E702 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E729B71B53E32D00E7E702 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38E729C21B53E32D00E7E702 /* StartUpAgendaInterfaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				38E729D11B53ECF000E7E702 /* StartUpAgendaControllerTests.swift */,
+				38E729C31B53E32D00E7E702 /* Supporting Files */,
+			);
+			path = StartUpAgendaInterfaceTests;
+			sourceTree = "<group>";
+		};
+		38E729C31B53E32D00E7E702 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E729C41B53E32D00E7E702 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38F6B3581B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX */ = {
+			isa = PBXGroup;
+			children = (
+				38F6B35B1B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.h */,
+				38F6B3591B54062C00DA4EA2 /* Supporting Files */,
+			);
+			path = StartUpAgendaInterfaceOSX;
+			sourceTree = "<group>";
+		};
+		38F6B3591B54062C00DA4EA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38F6B35A1B54062C00DA4EA2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38F6B3651B54062D00DA4EA2 /* StartUpAgendaInterfaceOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				38F6B3681B54062D00DA4EA2 /* StartUpAgendaInterfaceOSXTests.swift */,
+				38F6B3731B5406B500DA4EA2 /* StartUpAgendaControllerTests.swift */,
+				38F6B3661B54062D00DA4EA2 /* Supporting Files */,
+			);
+			path = StartUpAgendaInterfaceOSXTests;
+			sourceTree = "<group>";
+		};
+		38F6B3661B54062D00DA4EA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38F6B3671B54062D00DA4EA2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38F6B39E1B5407A100DA4EA2 /* Meetup agenda for Startup OSX */ = {
+			isa = PBXGroup;
+			children = (
+				38537A4D1B54F0E700FFEADF /* Meetup agenda for Startup OSX.entitlements */,
+				38F6B3A11B5407A100DA4EA2 /* AppDelegate.swift */,
+				38F6B3C21B54089700DA4EA2 /* ListViewController.swift */,
+				38F6B3C61B5408E500DA4EA2 /* ListTableCellView.swift */,
+				38F6B3C41B5408CD00DA4EA2 /* DetailsViewController.swift */,
+				38F6B3C01B54085400DA4EA2 /* Main.storyboard */,
+				38F6B3A51B5407A100DA4EA2 /* Images.xcassets */,
+				38F6B39F1B5407A100DA4EA2 /* Supporting Files */,
+			);
+			path = "Meetup agenda for Startup OSX";
+			sourceTree = "<group>";
+		};
+		38F6B39F1B5407A100DA4EA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38F6B3A01B5407A100DA4EA2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38F6B3B11B5407A100DA4EA2 /* Meetup agenda for Startup OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				38F6B3B41B5407A100DA4EA2 /* Meetup_agenda_for_Startup_OSXTests.swift */,
+				38F6B3B21B5407A100DA4EA2 /* Supporting Files */,
+			);
+			path = "Meetup agenda for Startup OSXTests";
+			sourceTree = "<group>";
+		};
+		38F6B3B21B5407A100DA4EA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38F6B3B31B5407A100DA4EA2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38E729B01B53E32D00E7E702 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E729B91B53E32D00E7E702 /* StartUpAgendaInterface.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B3541B54062C00DA4EA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F6B35C1B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		386E1B831B74AD6700182C6B /* StartupConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386E1BA21B74AD6800182C6B /* Build configuration list for PBXNativeTarget "StartupConnect" */;
+			buildPhases = (
+				386E1B801B74AD6700182C6B /* Sources */,
+				386E1B811B74AD6700182C6B /* Frameworks */,
+				386E1B821B74AD6700182C6B /* Resources */,
+				386E1BAC1B74B0E400182C6B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386E1BAB1B74B0E400182C6B /* PBXTargetDependency */,
+			);
+			name = StartupConnect;
+			productName = StartupAgenda;
+			productReference = 386E1B841B74AD6700182C6B /* StartupConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		386E1B991B74AD6800182C6B /* StartupAgendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386E1BA51B74AD6800182C6B /* Build configuration list for PBXNativeTarget "StartupAgendaTests" */;
+			buildPhases = (
+				386E1B961B74AD6800182C6B /* Sources */,
+				386E1B971B74AD6800182C6B /* Frameworks */,
+				386E1B981B74AD6800182C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386E1B9C1B74AD6800182C6B /* PBXTargetDependency */,
+			);
+			name = StartupAgendaTests;
+			productName = StartupAgendaTests;
+			productReference = 386E1B9A1B74AD6800182C6B /* StartupAgendaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38E729B21B53E32D00E7E702 /* StartUpAgendaInterface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E729C91B53E32D00E7E702 /* Build configuration list for PBXNativeTarget "StartUpAgendaInterface" */;
+			buildPhases = (
+				38E729AE1B53E32D00E7E702 /* Sources */,
+				38E729AF1B53E32D00E7E702 /* Frameworks */,
+				38E729B01B53E32D00E7E702 /* Headers */,
+				38E729B11B53E32D00E7E702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StartUpAgendaInterface;
+			productName = StartUpAgendaInterface;
+			productReference = 38E729B31B53E32D00E7E702 /* StartUpAgendaInterface.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38E729BD1B53E32D00E7E702 /* StartUpAgendaInterfaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E729CC1B53E32D00E7E702 /* Build configuration list for PBXNativeTarget "StartUpAgendaInterfaceTests" */;
+			buildPhases = (
+				38E729BA1B53E32D00E7E702 /* Sources */,
+				38E729BB1B53E32D00E7E702 /* Frameworks */,
+				38E729BC1B53E32D00E7E702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E729C11B53E32D00E7E702 /* PBXTargetDependency */,
+			);
+			name = StartUpAgendaInterfaceTests;
+			productName = StartUpAgendaInterfaceTests;
+			productReference = 38E729BE1B53E32D00E7E702 /* StartUpAgendaInterfaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38F6B3561B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F6B36A1B54062D00DA4EA2 /* Build configuration list for PBXNativeTarget "StartUpAgendaInterfaceOSX" */;
+			buildPhases = (
+				38F6B3521B54062C00DA4EA2 /* Sources */,
+				38F6B3531B54062C00DA4EA2 /* Frameworks */,
+				38F6B3541B54062C00DA4EA2 /* Headers */,
+				38F6B3551B54062C00DA4EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StartUpAgendaInterfaceOSX;
+			productName = StartUpAgendaInterfaceOSX;
+			productReference = 38F6B3571B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38F6B3601B54062D00DA4EA2 /* StartUpAgendaInterfaceOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F6B36D1B54062D00DA4EA2 /* Build configuration list for PBXNativeTarget "StartUpAgendaInterfaceOSXTests" */;
+			buildPhases = (
+				38F6B35D1B54062D00DA4EA2 /* Sources */,
+				38F6B35E1B54062D00DA4EA2 /* Frameworks */,
+				38F6B35F1B54062D00DA4EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38F6B3641B54062D00DA4EA2 /* PBXTargetDependency */,
+			);
+			name = StartUpAgendaInterfaceOSXTests;
+			productName = StartUpAgendaInterfaceOSXTests;
+			productReference = 38F6B3611B54062D00DA4EA2 /* StartUpAgendaInterfaceOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38F6B39C1B5407A100DA4EA2 /* Meetup agenda for Startup OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F6B3BA1B5407A100DA4EA2 /* Build configuration list for PBXNativeTarget "Meetup agenda for Startup OSX" */;
+			buildPhases = (
+				38F6B3991B5407A100DA4EA2 /* Sources */,
+				38F6B39A1B5407A100DA4EA2 /* Frameworks */,
+				38F6B39B1B5407A100DA4EA2 /* Resources */,
+				38F6B3D21B541E6A00DA4EA2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38F6B3D11B541E6A00DA4EA2 /* PBXTargetDependency */,
+			);
+			name = "Meetup agenda for Startup OSX";
+			productName = "Meetup agenda for Startup OSX";
+			productReference = 38F6B39D1B5407A100DA4EA2 /* Meetup agenda for Startup OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38F6B3AD1B5407A100DA4EA2 /* Meetup agenda for Startup OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F6B3BB1B5407A100DA4EA2 /* Build configuration list for PBXNativeTarget "Meetup agenda for Startup OSXTests" */;
+			buildPhases = (
+				38F6B3AA1B5407A100DA4EA2 /* Sources */,
+				38F6B3AB1B5407A100DA4EA2 /* Frameworks */,
+				38F6B3AC1B5407A100DA4EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38F6B3B01B5407A100DA4EA2 /* PBXTargetDependency */,
+			);
+			name = "Meetup agenda for Startup OSXTests";
+			productName = "Meetup agenda for Startup OSXTests";
+			productReference = 38F6B3AE1B5407A100DA4EA2 /* Meetup agenda for Startup OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E729AA1B53E32D00E7E702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Over de muur producties";
+				TargetAttributes = {
+					386E1B831B74AD6700182C6B = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Z6JP26PUUY;
+					};
+					386E1B991B74AD6800182C6B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 386E1B831B74AD6700182C6B;
+					};
+					38E729B21B53E32D00E7E702 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Z6JP26PUUY;
+					};
+					38E729BD1B53E32D00E7E702 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					38F6B3561B54062C00DA4EA2 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Z6JP26PUUY;
+					};
+					38F6B3601B54062D00DA4EA2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					38F6B39C1B5407A100DA4EA2 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Z6JP26PUUY;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					38F6B3AD1B5407A100DA4EA2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 38F6B39C1B5407A100DA4EA2;
+					};
+				};
+			};
+			buildConfigurationList = 38E729AD1B53E32D00E7E702 /* Build configuration list for PBXProject "StartUpAgendaInterface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E729A91B53E32D00E7E702;
+			productRefGroup = 38E729B41B53E32D00E7E702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E729B21B53E32D00E7E702 /* StartUpAgendaInterface */,
+				38E729BD1B53E32D00E7E702 /* StartUpAgendaInterfaceTests */,
+				38F6B3561B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX */,
+				38F6B3601B54062D00DA4EA2 /* StartUpAgendaInterfaceOSXTests */,
+				38F6B39C1B5407A100DA4EA2 /* Meetup agenda for Startup OSX */,
+				38F6B3AD1B5407A100DA4EA2 /* Meetup agenda for Startup OSXTests */,
+				386E1B831B74AD6700182C6B /* StartupConnect */,
+				386E1B991B74AD6800182C6B /* StartupAgendaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		386E1B821B74AD6700182C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E1B901B74AD6800182C6B /* Main.storyboard in Resources */,
+				386E1BB61B74C38A00182C6B /* Bariol_Regular_Italic.otf in Resources */,
+				386E1B951B74AD6800182C6B /* LaunchScreen.xib in Resources */,
+				386E1BBD1B74CB9B00182C6B /* Images.xcassets in Resources */,
+				386E1BB21B74BD7300182C6B /* Bariol_Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E1B981B74AD6800182C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E729B11B53E32D00E7E702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E729BC1B53E32D00E7E702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B3551B54062C00DA4EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B35F1B54062D00DA4EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B39B1B5407A100DA4EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F6B3A61B5407A100DA4EA2 /* Images.xcassets in Resources */,
+				38F6B3C11B54085400DA4EA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B3AC1B5407A100DA4EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		386E1B801B74AD6700182C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E1B8D1B74AD6800182C6B /* DetailViewController.swift in Sources */,
+				386E1BB01B74B6EF00182C6B /* CustomStuff.swift in Sources */,
+				386E1B8B1B74AD6800182C6B /* MasterViewController.swift in Sources */,
+				386E1BAE1B74B3B700182C6B /* AgendaItemCell.swift in Sources */,
+				386E1BC31B7608BE00182C6B /* DetailCells.swift in Sources */,
+				386E1BC71B7610B000182C6B /* LineView.swift in Sources */,
+				386E1B891B74AD6800182C6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E1B961B74AD6800182C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E1BA11B74AD6800182C6B /* StartupAgendaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E729AE1B53E32D00E7E702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F6B3511B53FA9800DA4EA2 /* MCExtensionNSDate.swift in Sources */,
+				38BBB3011B7A084600AE1673 /* Meeting.swift in Sources */,
+				38E729D01B53E37800E7E702 /* StartUpAgendaController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E729BA1B53E32D00E7E702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E729D21B53ECF000E7E702 /* StartUpAgendaControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B3521B54062C00DA4EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F6B3701B54065300DA4EA2 /* StartUpAgendaController.swift in Sources */,
+				38BBB3031B7A127F00AE1673 /* Meeting.swift in Sources */,
+				38F6B3711B54065300DA4EA2 /* MCExtensionNSDate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B35D1B54062D00DA4EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F6B3741B5406B500DA4EA2 /* StartUpAgendaControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B3991B5407A100DA4EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F6B3C31B54089700DA4EA2 /* ListViewController.swift in Sources */,
+				38F6B3C71B5408E500DA4EA2 /* ListTableCellView.swift in Sources */,
+				38F6B3A21B5407A100DA4EA2 /* AppDelegate.swift in Sources */,
+				38F6B3C51B5408CD00DA4EA2 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F6B3AA1B5407A100DA4EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F6B3B51B5407A100DA4EA2 /* Meetup_agenda_for_Startup_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		386E1B9C1B74AD6800182C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386E1B831B74AD6700182C6B /* StartupConnect */;
+			targetProxy = 386E1B9B1B74AD6800182C6B /* PBXContainerItemProxy */;
+		};
+		386E1BAB1B74B0E400182C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E729B21B53E32D00E7E702 /* StartUpAgendaInterface */;
+			targetProxy = 386E1BAA1B74B0E400182C6B /* PBXContainerItemProxy */;
+		};
+		38E729C11B53E32D00E7E702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E729B21B53E32D00E7E702 /* StartUpAgendaInterface */;
+			targetProxy = 38E729C01B53E32D00E7E702 /* PBXContainerItemProxy */;
+		};
+		38F6B3641B54062D00DA4EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38F6B3561B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX */;
+			targetProxy = 38F6B3631B54062D00DA4EA2 /* PBXContainerItemProxy */;
+		};
+		38F6B3B01B5407A100DA4EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38F6B39C1B5407A100DA4EA2 /* Meetup agenda for Startup OSX */;
+			targetProxy = 38F6B3AF1B5407A100DA4EA2 /* PBXContainerItemProxy */;
+		};
+		38F6B3D11B541E6A00DA4EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38F6B3561B54062C00DA4EA2 /* StartUpAgendaInterfaceOSX */;
+			targetProxy = 38F6B3D01B541E6A00DA4EA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		386E1B8E1B74AD6800182C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386E1B8F1B74AD6800182C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		386E1B931B74AD6800182C6B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386E1B941B74AD6800182C6B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		386E1BA31B74AD6800182C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StartupAgenda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		386E1BA41B74AD6800182C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = StartupAgenda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		386E1BA61B74AD6800182C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StartupAgendaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StartupConnect.app/StartupConnect";
+			};
+			name = Debug;
+		};
+		386E1BA71B74AD6800182C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StartupAgendaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StartupConnect.app/StartupConnect";
+			};
+			name = Release;
+		};
+		38E729C71B53E32D00E7E702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38E729C81B53E32D00E7E702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38E729CA1B53E32D00E7E702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = StartUpAgendaInterface/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38E729CB1B53E32D00E7E702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = StartUpAgendaInterface/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		38E729CD1B53E32D00E7E702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StartUpAgendaInterfaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38E729CE1B53E32D00E7E702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StartUpAgendaInterfaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38F6B36B1B54062D00DA4EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StartUpAgendaInterfaceOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38F6B36C1B54062D00DA4EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = StartUpAgendaInterfaceOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		38F6B36E1B54062D00DA4EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StartUpAgendaInterfaceOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38F6B36F1B54062D00DA4EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StartUpAgendaInterfaceOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38F6B3B61B5407A100DA4EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Meetup agenda for Startup OSX/Meetup agenda for Startup OSX.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Meetup agenda for Startup OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38F6B3B71B5407A100DA4EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Meetup agenda for Startup OSX/Meetup agenda for Startup OSX.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Meetup agenda for Startup OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38F6B3B81B5407A100DA4EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Meetup agenda for Startup OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meetup agenda for Startup OSX.app/Contents/MacOS/Meetup agenda for Startup OSX";
+			};
+			name = Debug;
+		};
+		38F6B3B91B5407A100DA4EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Meetup agenda for Startup OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meetup agenda for Startup OSX.app/Contents/MacOS/Meetup agenda for Startup OSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		386E1BA21B74AD6800182C6B /* Build configuration list for PBXNativeTarget "StartupConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386E1BA31B74AD6800182C6B /* Debug */,
+				386E1BA41B74AD6800182C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386E1BA51B74AD6800182C6B /* Build configuration list for PBXNativeTarget "StartupAgendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386E1BA61B74AD6800182C6B /* Debug */,
+				386E1BA71B74AD6800182C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E729AD1B53E32D00E7E702 /* Build configuration list for PBXProject "StartUpAgendaInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E729C71B53E32D00E7E702 /* Debug */,
+				38E729C81B53E32D00E7E702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E729C91B53E32D00E7E702 /* Build configuration list for PBXNativeTarget "StartUpAgendaInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E729CA1B53E32D00E7E702 /* Debug */,
+				38E729CB1B53E32D00E7E702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E729CC1B53E32D00E7E702 /* Build configuration list for PBXNativeTarget "StartUpAgendaInterfaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E729CD1B53E32D00E7E702 /* Debug */,
+				38E729CE1B53E32D00E7E702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F6B36A1B54062D00DA4EA2 /* Build configuration list for PBXNativeTarget "StartUpAgendaInterfaceOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F6B36B1B54062D00DA4EA2 /* Debug */,
+				38F6B36C1B54062D00DA4EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F6B36D1B54062D00DA4EA2 /* Build configuration list for PBXNativeTarget "StartUpAgendaInterfaceOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F6B36E1B54062D00DA4EA2 /* Debug */,
+				38F6B36F1B54062D00DA4EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F6B3BA1B5407A100DA4EA2 /* Build configuration list for PBXNativeTarget "Meetup agenda for Startup OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F6B3B61B5407A100DA4EA2 /* Debug */,
+				38F6B3B71B5407A100DA4EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F6B3BB1B5407A100DA4EA2 /* Build configuration list for PBXNativeTarget "Meetup agenda for Startup OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F6B3B81B5407A100DA4EA2 /* Debug */,
+				38F6B3B91B5407A100DA4EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E729AA1B53E32D00E7E702 /* Project object */;
+}

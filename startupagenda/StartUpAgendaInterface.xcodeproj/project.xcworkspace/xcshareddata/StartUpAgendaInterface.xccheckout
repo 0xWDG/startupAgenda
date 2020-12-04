@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7F52DAC1-AE11-48FD-8B2D-D20B16FD869A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StartUpAgendaInterface</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>025C8BC83899C5FD77BDDAE7063A74E2A4E16EC3</key>
+		<string>bitbucket.org:15458434/startupagenda.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StartUpAgendaInterface.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>025C8BC83899C5FD77BDDAE7063A74E2A4E16EC3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:15458434/startupagenda.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>025C8BC83899C5FD77BDDAE7063A74E2A4E16EC3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>025C8BC83899C5FD77BDDAE7063A74E2A4E16EC3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StartUpAgendaInterface</string>
+		</dict>
+	</array>
+</dict>
+</plist>
